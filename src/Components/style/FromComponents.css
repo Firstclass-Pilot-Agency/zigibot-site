@@ -1,0 +1,31 @@
+.ButtonMain{
+    border: none;
+    border-radius: 100px;
+    overflow: hidden;
+    padding: 25px 30px;
+
+}
+.wrapButton{
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+}
+.wrapButton p{
+    font-size: 14px;
+    font-weight: 700;
+}
+.sideBox{
+    
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(0deg);
+    transition: 1s;
+}
+.ButtonMain:hover .sideBox{
+    transform: rotateZ(-45deg);
+}
+.sideBox img{
+    width: 16px;
+}

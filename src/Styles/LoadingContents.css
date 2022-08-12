@@ -1,0 +1,49 @@
+.RandomTextLoading{
+    position: fixed;
+    bottom: 100px;
+    left: 65px;
+}
+.RandBox, .RandBox1{
+    overflow: hidden;
+    opacity:0
+}
+.JustMainLogo, .ShowLogoMain{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.JustMainLogo img{
+    opacity: 0;
+}
+.ShowLogoMain{
+    background: black;
+}
+.ShowLogoMain img{
+    width: 230px;
+}
+
+.closeRand{
+    height: 0;
+    background: black;
+    position: flex;
+    top: 0;
+    width: 100%;
+    z-index: 9;
+    }
+.closeRandYellow{
+    height: 0;
+    background: yellow;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+}
+.RandBox p{
+    font-size: 20px;
+}
+.RandBox1{
+    overflow: hidden;
+    opacity:0
+}

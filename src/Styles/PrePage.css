@@ -1,0 +1,47 @@
+.JoinWaitList{
+    background: black;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.textLunch{
+    margin-top: 100px;
+}
+.JoinLeft{
+    width: 50vw;
+    display: flex;
+    padding-left: 12vw;
+    align-items: center;
+}
+.JoinRight{
+    position: relative;
+}
+.JoinRight img{
+    width: 1200px;
+    position: absolute;
+    left: -150px;
+    top: -200px;
+}
+.buttonSection{
+    display: flex;
+    column-gap: 40px;
+    margin-top: 50px;
+}
+
+
+.CountDown{
+    display: flex;
+    column-gap: 10px;
+}
+.timeFormat{
+    display: flex;
+}
+.timeNum{
+    font-weight: 800;
+    color: white;
+}
+.timeName{
+    font-weight: 800;
+    opacity: 0.6;
+    color: white;
+}

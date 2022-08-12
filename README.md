@@ -1,2 +1,4 @@
-# zigibot-site
-source code for zigibot
+# zigibot-app
+ 
+-clone the code
+-after download (npm install)
