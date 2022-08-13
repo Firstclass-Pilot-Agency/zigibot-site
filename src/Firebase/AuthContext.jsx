@@ -6,13 +6,12 @@ import { signInWithPopup, onAuthStateChanged, signOut, GoogleAuthProvider } from
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyB26gLl8I3DZZvHFr9MK_624kRqULTpvFc",
-    authDomain: "zigibot-app.firebaseapp.com",
-    projectId: "zigibot-app",
-    storageBucket: "zigibot-app.appspot.com",
-    messagingSenderId: "398464250302",
-    appId: "1:398464250302:web:2cedf12817fcfe4942c9ef",
-    measurementId: "G-9X1FK6XBNV"
+    apiKey: "AIzaSyBd5u2f8J3kg2pPxKlw5x-KiwFG4BidhpE",
+    authDomain: "app-zigibot.firebaseapp.com",
+    projectId: "app-zigibot",
+    storageBucket: "app-zigibot.appspot.com",
+    messagingSenderId: "447117899646",
+    appId: "1:447117899646:web:846ffee8c0dcb7d6d0e52f"
 };
 
 // Initialize Firebase
